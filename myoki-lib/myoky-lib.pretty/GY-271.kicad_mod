@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 5.3 -3.72 0)
 		(layer "F.SilkS")
-		(uuid "d9122b76-6be3-454d-a403-123706f76d45")
+		(uuid "4e1393d4-38f3-47ef-b970-48ca0176ab7b")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "GY-271"
 		(at 5.3 13.88 0)
 		(layer "F.Fab")
-		(uuid "972cf2da-6aef-4d73-8520-458442260f8d")
+		(uuid "30adcbbe-ae9f-4e78-887a-715942478475")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b46bd226-2f46-48aa-a2d6-c529f8484760")
+		(uuid "9644b2bb-7bbe-4b06-a623-6290b5656674")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fbce2162-cefc-4a7a-b92d-f42120ff8a3e")
+		(uuid "159fecd6-3c5a-47d2-9150-ead62fdffe8d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,7 +62,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "bd215914-a69b-4c1f-99dc-cc3fef259fb9")
+		(uuid "085da251-c0bd-4565-b755-94584c36bc49")
 	)
 	(fp_rect
 		(start -1.55 -2.35)
@@ -73,7 +73,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "3a04afcc-1188-48cd-b449-a06e8a51fbcf")
+		(uuid "2ab76625-a3e4-44e6-b4ab-ea55dfe994ea")
 	)
 	(fp_rect
 		(start -1.3 -2.12)
@@ -84,12 +84,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "8a0cbb20-abc0-4fdf-9b23-6d2fa4910c0e")
+		(uuid "09f571f0-facc-44e5-bab6-fb3f773ad09d")
 	)
 	(fp_text user "1"
 		(at 0 -1.55 0)
 		(layer "F.SilkS")
-		(uuid "b4155f2c-7788-4e59-9c13-71a5683b8da8")
+		(uuid "001b1e4c-1923-4260-bef6-71230e38eef0")
 		(effects
 			(font
 				(size 1 1)
@@ -100,7 +100,7 @@
 	(fp_text user "VCC"
 		(at 1.3 0 0)
 		(layer "F.Fab")
-		(uuid "da92300d-c16a-4744-bb81-89c62728440c")
+		(uuid "32715930-8a96-490c-9550-20967af470b7")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -112,7 +112,7 @@
 	(fp_text user "GND"
 		(at 1.3 2.54 0)
 		(layer "F.Fab")
-		(uuid "0b0ba2d9-ff27-488a-aa90-6b06870a580d")
+		(uuid "0a3e11b7-f04e-44da-81ad-2167a84a70b8")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -124,7 +124,7 @@
 	(fp_text user "SCL"
 		(at 1.3 5.08 0)
 		(layer "F.Fab")
-		(uuid "2cb4c064-4e88-49f8-b5e7-ddba88efd057")
+		(uuid "89e24a53-c999-455d-beed-b2c16d0aeba6")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -136,7 +136,7 @@
 	(fp_text user "SDA"
 		(at 1.3 7.62 0)
 		(layer "F.Fab")
-		(uuid "87432fd9-a8dc-450c-b570-414fb63b817b")
+		(uuid "99b72dba-e5c6-45d5-8f12-d841a4c0a413")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -148,7 +148,7 @@
 	(fp_text user "DRDY"
 		(at 1.3 10.16 0)
 		(layer "F.Fab")
-		(uuid "cac9e26e-b869-45d0-80fc-72c176e0343e")
+		(uuid "16047598-0f04-4506-ba68-8b7ef101ffd5")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -160,7 +160,7 @@
 	(fp_text user "${REFERENCE}"
 		(at 5.3 10.48 0)
 		(layer "F.Fab")
-		(uuid "b9669526-c549-4367-b489-deb11c6e2251")
+		(uuid "a148b7cf-cca1-4be4-87d9-91a7f9c89303")
 		(effects
 			(font
 				(size 1 1)
@@ -174,7 +174,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "e2c5f51e-fa85-45a4-a2e8-970dbb070bde")
+		(uuid "8851c5a7-f9fe-4a82-a4da-a7a402b770b6")
 	)
 	(pad "2" thru_hole circle
 		(at 0 2.54)
@@ -182,7 +182,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "744375a7-168a-4b49-bea0-67d06bba4d8d")
+		(uuid "e6bfa215-e7e8-4681-87e6-1ba3b7591896")
 	)
 	(pad "3" thru_hole circle
 		(at 0 5.08)
@@ -190,7 +190,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "6fa169d4-c385-4176-bb11-1b547f0b8e0b")
+		(uuid "43eb2ca0-abb4-4705-bddf-5054a70d4830")
 	)
 	(pad "4" thru_hole circle
 		(at 0 7.62)
@@ -198,7 +198,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "13094bca-7dba-46ae-9dd6-4b55f0e65902")
+		(uuid "46d92e80-f13a-4c51-bde9-dcd3f09af957")
 	)
 	(pad "5" thru_hole circle
 		(at 0 10.16)
@@ -206,10 +206,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "7b4bd0c6-bfac-4867-aa77-82cfd5d4d15b")
+		(uuid "d01cbce9-6e8e-4904-ac26-efed5f810255")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Sensor_Modules/Sensor_Modules.3dshapes/GY-271.step"
+	(model "/Users/amoralesma/Documents/kyma/tools/kalman-filter-workshop/myoki-lib/GY-271/GY-271.step"
 		(offset
 			(xyz 0 0 0)
 		)

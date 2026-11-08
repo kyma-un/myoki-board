@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "myoky-lib") (type "KiCad") (uri "/Users/amoralesma/Documents/kyma/tools/kalman-filter-workshop/myoki-lib/myoky-lib.pretty") (options "") (descr ""))
+)

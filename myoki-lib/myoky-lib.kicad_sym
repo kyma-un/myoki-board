@@ -529,7 +529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sensor_Modules:GY-271"
+		(property "Footprint" "myoky-lib:GY-271"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
