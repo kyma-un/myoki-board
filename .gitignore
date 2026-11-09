@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# KiCad temporary / backup files
+*-backups/
+*.lck
+*.bak
+*-bak
+*-unsaved-export-*.kicad_prl
+fp-info-cache
+_autosave-*
+\#auto_saved_files#
+temp-freerouting.*
+*.dsn
+*.ses
+
+# Root-owned leftover from the old layout (copied to hardware/lib/vendor/BMI160)
+hardware/lib/BMI160/

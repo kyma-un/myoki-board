@@ -1,0 +1,363 @@
+(footprint "GY-BMI160"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "GY-BMI160 6-axis IMU module (Bosch BMI160), 2x06 headers 2.54mm (row spacing 10.16mm), PCB ~13x18mm")
+	(tags "GY-BMI160 BMI160 IMU accelerometer gyroscope I2C SPI module")
+	(property "Reference" "REF**"
+		(at 5.08 -4.25 0)
+		(layer "F.SilkS")
+		(uuid "222a78c1-43ae-4cf1-b9eb-7c2bad72187b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GY-BMI160"
+		(at 5.08 16.95 0)
+		(layer "F.Fab")
+		(uuid "8991bf82-ef54-4ec8-812b-0c13d40f06a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c08ed3c8-d363-4578-9bb6-06e7f4c82331")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "GY-BMI160 6-axis IMU module (Bosch BMI160), 2x06 headers 2.54mm (row spacing 10.16mm), PCB ~13x18mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa30281b-0e1a-40b1-a5eb-5e522ad0abb5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.42 -2.65)
+		(end 11.58 15.35)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0aa38676-e8b1-4d05-9529-61dcbcbace2f")
+	)
+	(fp_rect
+		(start -1.65 -2.9)
+		(end 11.85 15.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "518ea9bc-d9d0-42e8-aa58-faf6a99686ab")
+	)
+	(fp_rect
+		(start -1.42 -2.65)
+		(end 11.58 15.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8c767bcb-a483-4b34-b476-03093edcec2f")
+	)
+	(fp_text user "1"
+		(at 0 -1.55 0)
+		(layer "F.SilkS")
+		(uuid "e148b091-663f-461b-8ec8-c42979af669c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "VIN"
+		(at 1.3 0 0)
+		(layer "F.Fab")
+		(uuid "0c0320dc-7613-48cb-b367-259c31592ffd")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "3V3"
+		(at 1.3 2.54 0)
+		(layer "F.Fab")
+		(uuid "ff7d2000-0701-48a6-8967-1d9a57f382ea")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "GND"
+		(at 1.3 5.08 0)
+		(layer "F.Fab")
+		(uuid "0e230d6a-1e49-4a86-b39b-dd3f5e3e4a6d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "SCL"
+		(at 1.3 7.62 0)
+		(layer "F.Fab")
+		(uuid "80676768-2084-46ab-bcf1-240814185d85")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "SDA"
+		(at 1.3 10.16 0)
+		(layer "F.Fab")
+		(uuid "f4559bee-3405-4aac-b51e-c05f89786b0c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "CS"
+		(at 1.3 12.7 0)
+		(layer "F.Fab")
+		(uuid "d785432e-686b-47a0-814f-b26b7f1cc591")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.08 13.55 0)
+		(layer "F.Fab")
+		(uuid "4e20eec9-189a-466c-a445-a3138055f3f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "OCS"
+		(at 8.86 0 0)
+		(layer "F.Fab")
+		(uuid "fb794a2b-be73-4169-911e-869c710510b0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "INT2"
+		(at 8.86 2.54 0)
+		(layer "F.Fab")
+		(uuid "df3f2948-5671-4164-862c-0d4439284676")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "INT1"
+		(at 8.86 5.08 0)
+		(layer "F.Fab")
+		(uuid "018937c9-ab90-4335-a4e0-02a2db698d97")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "SCX"
+		(at 8.86 7.62 0)
+		(layer "F.Fab")
+		(uuid "083ac69e-f336-4de8-a93f-5cf70375f229")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "SDX"
+		(at 8.86 10.16 0)
+		(layer "F.Fab")
+		(uuid "06e882cd-39f3-42ff-9ef4-1fc26b589595")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "SAO"
+		(at 8.86 12.7 0)
+		(layer "F.Fab")
+		(uuid "f85dc333-f6d1-4ece-a082-a6d31aaad8d7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify right)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "272fd254-36ed-4923-a95f-04cfcaf4818f")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "081299bc-9cbb-4001-be09-7c493234161c")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5bd5aaeb-45f5-4277-9f24-c61564128a17")
+	)
+	(pad "4" thru_hole circle
+		(at 0 7.62)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "75a09bb5-2df0-4634-9565-0324cea82780")
+	)
+	(pad "5" thru_hole circle
+		(at 0 10.16)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b4793bfd-8e54-407c-985a-2f92e80e45a5")
+	)
+	(pad "6" thru_hole circle
+		(at 0 12.7)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "725eb7e1-7dd5-4a25-a787-1e6d69131112")
+	)
+	(pad "7" thru_hole circle
+		(at 10.16 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0dfd9e9b-5c72-4d1c-b8bf-ab086da764db")
+	)
+	(pad "8" thru_hole circle
+		(at 10.16 2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "48803f80-1241-4973-81f3-64ba46d8c068")
+	)
+	(pad "9" thru_hole circle
+		(at 10.16 5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b46775d4-4d7d-4c28-ac49-66616012713f")
+	)
+	(pad "10" thru_hole circle
+		(at 10.16 7.62)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e8159478-9dec-48b4-a85e-d66ef522e4a5")
+	)
+	(pad "11" thru_hole circle
+		(at 10.16 10.16)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b8e7e1fc-a875-4eca-be18-34ace76aa552")
+	)
+	(pad "12" thru_hole circle
+		(at 10.16 12.7)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "df7fe5bf-9901-4d3f-bb8d-14c61b39fa1d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../lib/myoky-lib.3dshapes/GY-BMI160.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
