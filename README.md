@@ -1,24 +1,28 @@
 <div align="center">
 
-<img src="assets/myoki-logo-banner.png" alt="MYOKI IMU" width="640">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/myoki-logo-white.png">
+  <img src="assets/myoki-logo-navy.png" alt="MYOKI IMU" width="220">
+</picture>
 
-<br>
-<br>
+<p>
+  <sub>MAKE YOUR OWN KALMAN IMPLEMENTATION</sub>
+</p>
 
-**Make Your Own Kalman Implementation**
+<p>
+  <img src="https://img.shields.io/badge/KiCad-10-040F1D?style=flat-square" alt="KiCad 10">
+  <img src="https://img.shields.io/badge/ESP32--C3-SuperMini-040F1D?style=flat-square" alt="ESP32-C3 SuperMini">
+  <img src="https://img.shields.io/badge/license-MIT-0081FE?style=flat-square" alt="MIT">
+</p>
 
-Tarjeta IMU modular y de código abierto para aprender filtros de Kalman en la asignatura de **Sensores y Actuadores**.
-Basada en MYOSA del IEEE Sensors Council.
+</div>
 
-<br>
+---
 
-![KiCad](https://img.shields.io/badge/KiCad-10-0081FE?style=for-the-badge&logo=kicad&logoColor=white&labelColor=040F1D)
-![ESP32-C3](https://img.shields.io/badge/MCU-ESP32--C3-0081FE?style=for-the-badge&logo=espressif&logoColor=white&labelColor=040F1D)
-![PCB](https://img.shields.io/badge/PCB-38.1%20×%2038.1%20mm-0081FE?style=for-the-badge&labelColor=040F1D)
-![License](https://img.shields.io/badge/License-MIT-0081FE?style=for-the-badge&labelColor=040F1D)
+MYOKI es una IMU modular y de código abierto para aprender filtros de Kalman en la asignatura de **Sensores y Actuadores**. Está basada en MYOSA del IEEE Sensors Council.
 
-<img src="https://img.shields.io/badge/-0081FE?style=flat-square" width="100%" height="3" alt="">
-
+<div align="center">
+  <img src="assets/renders/myoki-case.png" alt="MYOKI ensamblada en su carcasa" width="720">
 </div>
 
 ## Qué es MYOKI
@@ -37,6 +41,28 @@ El dibujo de ejes de la tapa marca la orientación del sistema de referencia de 
 <img src="assets/myoki-design-top.png" alt="Diseño de la tapa de MYOKI" width="320">
 </div>
 
+### Placa base ESP32-C3
+
+<table>
+  <tr>
+    <td align="center"><img src="assets/renders/esp32-base-assembled.jpg" alt="Placa base ensamblada" width="400"></td>
+    <td align="center"><img src="assets/renders/esp32-base-pcb.jpg" alt="Placa base sin componentes" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Ensamblada</sub></td>
+    <td align="center"><sub>PCB desnuda</sub></td>
+  </tr>
+</table>
+
+La base expone los dos buses a las capas de sensores:
+
+| Conector | Pin 1 | Pin 2 | Pin 3 | Pin 4 |
+| --- | --- | --- | --- | --- |
+| **J1** (SPI) | MOSI | MISO | CS | GND |
+| **J2** (I²C) | SDA | SCL | VCC | GND |
+
+El ESP32-C3 SuperMini se monta con el puerto USB-C hacia el borde marcado en la serigrafía.
+
 ## Estructura del repositorio
 
 ```text
@@ -45,7 +71,8 @@ myoki-board/
 │   ├── myoki-design-top.png    Diseño de la tapa (acrílico)
 │   ├── myoki-logo-banner.png   Banner para documentación
 │   ├── myoki-logo-white.png    Logo transparente para fondos oscuros
-│   └── myoki-logo-navy.png     Logo transparente para fondos claros
+│   ├── myoki-logo-navy.png     Logo transparente para fondos claros
+│   └── renders/                Renders de la carcasa y las PCB
 ├── hardware/                   Fuentes de diseño (KiCad 10)
 │   ├── lib/                    Librería propia "myoky-lib"
 │   │   ├── myoky-lib.kicad_sym     Símbolos
@@ -106,19 +133,10 @@ Parámetros: 2 capas, FR-4, 1.6 mm, 38.1 × 38.1 mm.
 
 Abre cualquier `.kicad_pro` dentro de [`hardware/`](hardware) con **KiCad 10**. Cada proyecto incluye sus propias `fp-lib-table` y `sym-lib-table`, que apuntan a `${KIPRJMOD}/../lib`, así que la librería `myoky-lib` y sus modelos 3D se cargan sin configuración extra.
 
+---
+
 <div align="center">
 
-<img src="https://img.shields.io/badge/-0081FE?style=flat-square" width="100%" height="3" alt="">
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/myoki-logo-white.png">
-  <img src="assets/myoki-logo-navy.png" alt="MYOKI" width="120">
-</picture>
-
-**S U P P O R T E D &nbsp; B Y &nbsp; K Y M A &nbsp; U N**
-
-Licencia [MIT](LICENSE) © 2026 KYMA UN
+<sub>SUPPORTED BY KYMA UN · Licencia <a href="LICENSE">MIT</a> © 2026</sub>
 
 </div>
