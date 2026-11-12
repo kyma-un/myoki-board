@@ -1484,7 +1484,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(U1-CS-Pad6)")
 			(pinfunction "CS_6")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "d002a270-e09a-41dc-b0e5-21930cbcc4d9")
 		)
 		(pad "7" thru_hole circle
@@ -1495,7 +1495,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(U1-OCS-Pad7)")
 			(pinfunction "OCS_7")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "3e0f3ceb-1111-491e-8b76-081178135e93")
 		)
 		(pad "8" thru_hole circle
@@ -1506,7 +1506,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(U1-INT2-Pad8)")
 			(pinfunction "INT2_8")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "c1f13dae-0b0f-4991-9109-2abf2fa4297a")
 		)
 		(pad "9" thru_hole circle
@@ -1517,7 +1517,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(U1-INT1-Pad9)")
 			(pinfunction "INT1_9")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "b694cdd0-202e-4f5d-b307-beaee3628674")
 		)
 		(pad "10" thru_hole circle
@@ -1528,7 +1528,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(U1-SCX-Pad10)")
 			(pinfunction "SCX_10")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "b39249bd-5fe3-4cce-b17b-86028f81dab7")
 		)
 		(pad "11" thru_hole circle
@@ -1539,7 +1539,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(U1-SDX-Pad11)")
 			(pinfunction "SDX_11")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "c4d2ef58-6c23-4420-8547-cd761790529b")
 		)
 		(pad "12" thru_hole circle
@@ -1548,7 +1548,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(U1-SAO-Pad12)")
+			(net "GND")
 			(pinfunction "SAO_12")
 			(pintype "input")
 			(uuid "c7c7116c-00ff-4c35-8264-99e5263df980")

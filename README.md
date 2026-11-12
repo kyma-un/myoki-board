@@ -83,6 +83,7 @@ myoki-board/
 │   ├── myoki-bmi160-layer/     PCB del BMI160
 │   └── myoki-gy271-layer/      PCB del GY-271
 └── manufacturing/              Todo lo necesario para fabricar
+    ├── bom/                    Lista de materiales (myoki-bom.xlsx)
     ├── gerbers/                Gerbers + drill por placa y .zip listos para enviar
     └── enclosure/              Carcasa: STL para impresión 3D y DXF para corte láser
 ```
@@ -103,6 +104,8 @@ Parámetros: 2 capas, FR-4, 1.6 mm, 38.1 × 38.1 mm.
 
 ### 2. Comprar los componentes
 
+La lista completa, con costos y links de compra, está en [`manufacturing/bom/myoki-bom.xlsx`](manufacturing/bom/myoki-bom.xlsx). Resumen:
+
 | Cant. | Componente | Placa |
 | --- | --- | --- |
 | 1 | ESP32-C3 SuperMini | Base |
@@ -112,7 +115,7 @@ Parámetros: 2 capas, FR-4, 1.6 mm, 38.1 × 38.1 mm.
 | 1 | Resistencia 330 Ω, 1206 | Base |
 | 1 | LED rojo, 2010 (5025 métrico) | Base |
 | 6 | Conector hembra 1×04, 2.54 mm | 2 por placa |
-| 4 | Separadores y tornillos M3 | Stack |
+| 8 + 8 | Separadores y tornillos M3 | Stack |
 
 ### 3. Fabricar la carcasa
 
